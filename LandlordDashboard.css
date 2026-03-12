@@ -1,0 +1,44 @@
+/* SUMMARY CARDS */
+
+.summary-cards{
+
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:20px;
+margin-bottom:30px;
+
+}
+
+.summary-card{
+
+background:rgba(255,255,255,0.08);
+
+backdrop-filter:blur(20px);
+
+border:1px solid rgba(255,255,255,0.15);
+
+border-radius:16px;
+
+padding:20px;
+
+text-align:center;
+
+box-shadow:0 10px 35px rgba(0,0,0,0.5);
+
+transition:0.3s;
+
+}
+
+.summary-card:hover{
+
+transform:translateY(-5px) scale(1.03);
+
+}
+
+.summary-card p{
+
+font-size:22px;
+color:#38bdf8;
+margin-top:8px;
+
+}

@@ -1,0 +1,53 @@
+.applications-container{
+
+padding:40px;
+
+}
+
+/* TABLE */
+
+.applications-table{
+
+width:100%;
+border-collapse:collapse;
+margin-top:20px;
+
+background:white;
+color:#111;   /* IMPORTANT FIX */
+
+border-radius:10px;
+overflow:hidden;
+
+}
+
+/* HEADER */
+
+.applications-table th{
+
+background:#1e293b;
+color:white;
+padding:14px;
+text-align:center;
+
+}
+
+/* ROWS */
+
+.applications-table td{
+
+padding:12px;
+text-align:center;
+
+color:#111;   /* IMPORTANT */
+
+border-bottom:1px solid #e5e7eb;
+
+}
+
+/* ROW HOVER */
+
+.applications-table tr:hover{
+
+background:#f3f4f6;
+
+}
